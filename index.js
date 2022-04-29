@@ -97,9 +97,7 @@ app.get("/", (req, res) => {
     res.send("Runing the server")
 })
 
-app.get("/hero", async (req, res) => {
-   res.send("added new a path")
-})
+
 
 app.listen(PORT, () => {
    console.log('Server is running:', PORT)
